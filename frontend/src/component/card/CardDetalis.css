@@ -1,0 +1,103 @@
+.JobDetails{
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 2fr 0fr;
+  grid-gap: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.layout {
+    width: 100%;
+    display: flex;
+    gap: 6%;
+  }
+
+.job-title{
+    font-family:sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.easy-apply{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-left: 20px;
+}
+
+.easy-apply-btn {
+    background-color: rgb(249, 53, 92);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  .easy-apply-btn:hover {
+    background-color: crimson;
+  }
+  
+  .tell-a-friend {
+    color: grey;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 23px;
+  }
+  
+  .tell-a-friend:hover {
+    color: darkgrey;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid rgb(185, 185, 185);
+    margin-top: 40px;
+    margin-left: 15px;
+  }
+  
+  .PostedBycard {
+    background-color: #f4dddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    margin-left: 100px;
+
+  }
+  
+  .posted {
+    font-size: 20px;
+    color: #000;
+
+  
+  }
+  
+  .posted-by {
+    color: crimson;
+    font-weight: bold;
+  }
+  
+  .job-description {
+    margin-left: 20px;
+  }
+  
+  .job-description h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    font-family:sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .job-description p {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  

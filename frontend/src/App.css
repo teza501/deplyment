@@ -1,0 +1,14 @@
+.home-header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-header-title {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .view-details-link {
+    margin-left: 1rem;
+  }
+  
